@@ -112,6 +112,7 @@
 		F86D826A09EBE221D979E1C9C9839B92 /* ASIS3Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FD00F10DBC7C6A7DDB9108D2C52978 /* ASIS3Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9DC357E0BDB8201AD843C7AFBC74F9A /* ASIS3ServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 63932B1672051793BFE5F523997C401D /* ASIS3ServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC678FE8FA1155BE149D111897A4DCEE /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFA779BBE18F342FAF0F46FF2E1721 /* NSObject+Category.m */; };
+		FCEB78E41CEB1D4A0030A04B /* FBPlugInHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEB78E31CEB1D4A0030A04B /* FBPlugInHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -388,6 +389,7 @@
 		F80A0EE1930F38275B80D60A11E49BC7 /* ASICacheDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = Classes/ASICacheDelegate.h; sourceTree = "<group>"; };
 		F9CD015943EAD9E2D507584D839AAA47 /* Pods-FBWatch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBWatch_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FCE027098362C466F83D20457AD7AB4F /* Pods-FBWatch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBWatch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCEB78E31CEB1D4A0030A04B /* FBPlugInHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlugInHeader.h; sourceTree = "<group>"; };
 		FDD889B6CE7C8250BBB07E50331D5B27 /* ASICloudFilesContainerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASICloudFilesContainerRequest.m; path = Classes/CloudFiles/ASICloudFilesContainerRequest.m; sourceTree = "<group>"; };
 		FFFC62457B2C9B415C0E73403B41271B /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = Classes/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -522,6 +524,7 @@
 		2DFC81056B78DD86F19E23E0D5F0E593 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FCEB78E31CEB1D4A0030A04B /* FBPlugInHeader.h */,
 				8F163CAFA0B17C546D0A5C73CC704A35 /* LTRequest.h */,
 				6CB58156C8BDE0275FB0B12E16AAFED1 /* LTRequest.m */,
 				1A539F25DD0F079321ECC4B3638D7C20 /* NSObject+Category.h */,
@@ -889,6 +892,7 @@
 				B16857C1B281B9D9A4FA19CBFB546DAD /* ASIHTTPRequest.h in Headers */,
 				60742C90181099EA23365F7EFA7E321F /* ASIHTTPRequestConfig.h in Headers */,
 				7AE4FA2753A03735D3980DED4E417C0D /* ASIHTTPRequestDelegate.h in Headers */,
+				FCEB78E41CEB1D4A0030A04B /* FBPlugInHeader.h in Headers */,
 				4EDBF54AA41F864EA1CCCE3A68693324 /* ASIInputStream.h in Headers */,
 				2349DF67AE3EEC41BD3CB3D1185A2A93 /* ASINetworkQueue.h in Headers */,
 				EFDA15B8197C119BF6593F1039508B65 /* ASINSXMLParserCompat.h in Headers */,

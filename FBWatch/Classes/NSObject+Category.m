@@ -8,7 +8,7 @@
 
 #import "NSObject+Category.h"
 
-#import "AVHexColor.h"
+//#import "AVHexColor.h"
 
 #import "SVProgressHUD.h"
 
@@ -576,29 +576,29 @@ CLLocationManager * locationManager;
     return image;
 }
 
-- (UIView *)withBorder:(NSDictionary *)dict
-{
-    self.layer.borderColor =  ![dict responseForKey:@"Bcolor"] ? [dict responseForKey:@"Bhex"] ? [AVHexColor colorWithHexString:dict[@"Bhex"]].CGColor : [UIColor clearColor].CGColor : ((UIColor*)dict[@"Bcolor"]).CGColor;
-    self.layer.cornerRadius = [dict responseForKey:@"Bcorner"] ? [dict[@"Bcorner"] floatValue] : 0;
-    self.layer.borderWidth =  [dict responseForKey:@"Bwidth"] ? [dict[@"Bwidth"] floatValue] : 0;
-    self.clipsToBounds = YES;
-    if([dict responseForKey:@"Bground"])
-        self.backgroundColor = ([dict responseForKey:@"Bground"] && [dict[@"Bground"] isKindOfClass:[NSString class]]) ? [AVHexColor colorWithHexString:dict[@"Bground"]] : ((UIColor*)dict[@"Bground"]);
-    self.contentMode = UIViewContentModeScaleAspectFill;
-    self.userInteractionEnabled = YES;
-    
-    return self;
-}
-
--(UIView*)withShadow
-{
-    self.layer.masksToBounds = NO;
-    self.layer.shadowOffset = CGSizeMake(1.0f,3.0f);
-    self.layer.shadowRadius = 2;
-    self.layer.shadowOpacity = .8f;
-    self.layer.shadowColor = [AVHexColor colorWithHexString:@"#2B292A"].CGColor;
-    return self;
-}
+//- (UIView *)withBorder:(NSDictionary *)dict
+//{
+//    self.layer.borderColor =  ![dict responseForKey:@"Bcolor"] ? [dict responseForKey:@"Bhex"] ? [AVHexColor colorWithHexString:dict[@"Bhex"]].CGColor : [UIColor clearColor].CGColor : ((UIColor*)dict[@"Bcolor"]).CGColor;
+//    self.layer.cornerRadius = [dict responseForKey:@"Bcorner"] ? [dict[@"Bcorner"] floatValue] : 0;
+//    self.layer.borderWidth =  [dict responseForKey:@"Bwidth"] ? [dict[@"Bwidth"] floatValue] : 0;
+//    self.clipsToBounds = YES;
+//    if([dict responseForKey:@"Bground"])
+//        self.backgroundColor = ([dict responseForKey:@"Bground"] && [dict[@"Bground"] isKindOfClass:[NSString class]]) ? [AVHexColor colorWithHexString:dict[@"Bground"]] : ((UIColor*)dict[@"Bground"]);
+//    self.contentMode = UIViewContentModeScaleAspectFill;
+//    self.userInteractionEnabled = YES;
+//    
+//    return self;
+//}
+//
+//-(UIView*)withShadow
+//{
+//    self.layer.masksToBounds = NO;
+//    self.layer.shadowOffset = CGSizeMake(1.0f,3.0f);
+//    self.layer.shadowRadius = 2;
+//    self.layer.shadowOpacity = .8f;
+//    self.layer.shadowColor = [AVHexColor colorWithHexString:@"#2B292A"].CGColor;
+//    return self;
+//}
 
 -(UIView*)withShadow:(UIColor*)hext
 {
@@ -676,7 +676,7 @@ CLLocationManager * locationManager;
     CGContextDrawImage(context, rect, self.CGImage);
     
     CGContextSetBlendMode(context, kCGBlendModeSourceIn);
-    [[AVHexColor colorWithHexString:color] setFill];
+//    [[AVHexColor colorWithHexString:color] setFill];
     CGContextFillRect(context, rect);
     
     UIImage *coloredImage = UIGraphicsGetImageFromCurrentImageContext();

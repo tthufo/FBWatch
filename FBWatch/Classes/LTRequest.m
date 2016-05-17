@@ -13,7 +13,7 @@
 
 #import "NSObject+Category.h"
 
-#import "AVHexColor.h"
+//#import "AVHexColor.h"
 
 static LTRequest *__sharedLTRequest = nil;
 
