@@ -27,9 +27,6 @@
   "frameworks": "CoreData",
   "public_header_files": "FBWatch/Classes/*.h",
   "dependencies": {
-    "SVProgressHUD": [
-
-    ],
     "Toast": [
       "~> 2.4"
     ],

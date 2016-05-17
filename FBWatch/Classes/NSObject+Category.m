@@ -10,7 +10,7 @@
 
 //#import "AVHexColor.h"
 
-#import "SVProgressHUD.h"
+//#import "SVProgressHUD.h"
 
 #import "UIView+Toast.h"
 
@@ -228,27 +228,27 @@ CLLocationManager * locationManager;
 
 - (void)showSVHUD:(NSString*)string andOption:(int)index
 {
-    switch (index)
-    {
-        case 0:
-        {
-            [SVProgressHUD showWithStatus:string maskType:SVProgressHUDMaskTypeGradient];
-        }
-            break;
-        case 1:
-            [SVProgressHUD showSuccessWithStatus:string];
-            break;
-        case 2:
-            [SVProgressHUD showErrorWithStatus:string];
-            break;
-        default:
-            break;
-    }
+//    switch (index)
+//    {
+//        case 0:
+//        {
+//            [SVProgressHUD showWithStatus:string maskType:SVProgressHUDMaskTypeGradient];
+//        }
+//            break;
+//        case 1:
+//            [SVProgressHUD showSuccessWithStatus:string];
+//            break;
+//        case 2:
+//            [SVProgressHUD showErrorWithStatus:string];
+//            break;
+//        default:
+//            break;
+//    }
 }
 
 - (void)hideSVHUD
 {
-    [SVProgressHUD dismiss];
+    //[SVProgressHUD dismiss];
 }
 
 - (id)withView:(id)superView tag:(int)tag

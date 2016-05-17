@@ -88,7 +88,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-FBWatch_Tests/FBWatch.framework"
   install_framework "Pods-FBWatch_Tests/JSONKit_NoWarning.framework"
   install_framework "Pods-FBWatch_Tests/Reachability.framework"
-  install_framework "Pods-FBWatch_Tests/SVProgressHUD.framework"
   install_framework "Pods-FBWatch_Tests/Toast.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -96,6 +95,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-FBWatch_Tests/FBWatch.framework"
   install_framework "Pods-FBWatch_Tests/JSONKit_NoWarning.framework"
   install_framework "Pods-FBWatch_Tests/Reachability.framework"
-  install_framework "Pods-FBWatch_Tests/SVProgressHUD.framework"
   install_framework "Pods-FBWatch_Tests/Toast.framework"
 fi

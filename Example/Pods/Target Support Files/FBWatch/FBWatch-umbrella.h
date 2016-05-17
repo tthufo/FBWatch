@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 
+#import "FBPlugInHeader.h"
 #import "LTRequest.h"
 #import "NSObject+Category.h"
 

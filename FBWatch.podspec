@@ -48,7 +48,6 @@ s.frameworks = 'CoreData'
 
 s.public_header_files = 'FBWatch/Classes/*.h'
 
-s.dependency 'SVProgressHUD'
 s.dependency 'Toast', '~> 2.4'
 s.dependency 'ASIHTTPRequest', '~> 1.8'
 s.dependency 'JSONKit-NoWarning', '~> 1.2'
