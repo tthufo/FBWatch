@@ -27,9 +27,6 @@
   "frameworks": "CoreData",
   "public_header_files": "FBWatch/Classes/*.h",
   "dependencies": {
-    "Toast": [
-      "~> 2.4"
-    ],
     "ASIHTTPRequest": [
       "~> 1.8"
     ],

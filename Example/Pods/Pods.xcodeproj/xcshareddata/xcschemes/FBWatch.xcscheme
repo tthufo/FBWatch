@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '446E332C34EEE99D50FBEB91'
+               BlueprintIdentifier = '7FEC90F9517F7C26ACD81AD8'
                BlueprintName = 'FBWatch'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'FBWatch.framework'>

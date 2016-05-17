@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FBWatch"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A short description of FBWatch."
 
 # This description is used to generate tags and improve search results.
@@ -48,7 +48,6 @@ s.frameworks = 'CoreData'
 
 s.public_header_files = 'FBWatch/Classes/*.h'
 
-s.dependency 'Toast', '~> 2.4'
 s.dependency 'ASIHTTPRequest', '~> 1.8'
 s.dependency 'JSONKit-NoWarning', '~> 1.2'
 

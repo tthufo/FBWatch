@@ -12,7 +12,7 @@
 
 //#import "SVProgressHUD.h"
 
-#import "UIView+Toast.h"
+//#import "UIView+Toast.h"
 
 #import "Reachability.h"
 
@@ -222,8 +222,8 @@ CLLocationManager * locationManager;
 
 - (void)showToast:(NSString*)toast andPos:(int)pos
 {
-    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
-    [window makeToast:toast duration:2 position:pos == 0 ? CSToastPositionBottom : pos == 1 ? CSToastPositionCenter : CSToastPositionTop];
+//    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
+//    [window makeToast:toast duration:2 position:pos == 0 ? CSToastPositionBottom : pos == 1 ? CSToastPositionCenter : CSToastPositionTop];
 }
 
 - (void)showSVHUD:(NSString*)string andOption:(int)index
