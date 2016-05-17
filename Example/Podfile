@@ -1,11 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'FBWatch_Example' do
-  pod 'FBWatch', :path => '../'
+target 'FBWatch_Example', :exclusive => true do
+  pod "FBWatch", :path => "../"
+end
 
-  target 'FBWatch_Tests' do
-    inherit! :search_paths
+target 'FBWatch_Tests', :exclusive => true do
+  pod "FBWatch", :path => "../"
 
-    
-  end
+  
+end
+
+post_install do |installer|
+    installer.pods_project.build_configuration_list.build_configurations.each do |configuration|
+        configuration.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
+    end
 end

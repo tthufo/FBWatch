@@ -1,0 +1,6 @@
+framework module FBWatch {
+  umbrella header "FBWatch-umbrella.h"
+
+  export *
+  module * { export * }
+}

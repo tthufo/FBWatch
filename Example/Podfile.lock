@@ -1,0 +1,40 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - FBWatch (0.1.0):
+    - ASIHTTPRequest (~> 1.8)
+    - JSONKit-NoWarning (~> 1.2)
+    - SVProgressHUD
+    - Toast (~> 2.4)
+  - JSONKit-NoWarning (1.2)
+  - Reachability (3.2)
+  - SVProgressHUD (2.0.3)
+  - Toast (2.4)
+
+DEPENDENCIES:
+  - FBWatch (from `../`)
+
+EXTERNAL SOURCES:
+  FBWatch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  FBWatch: 54d4ba392e7450b2d896628b77630b62e6446edd
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+
+COCOAPODS: 0.39.0

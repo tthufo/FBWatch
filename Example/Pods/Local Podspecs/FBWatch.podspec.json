@@ -1,0 +1,43 @@
+{
+  "name": "FBWatch",
+  "version": "0.1.0",
+  "summary": "A short description of FBWatch.",
+  "description": "This is watch utility",
+  "homepage": "https://github.com/tthufo/FBWatch",
+  "license": "MIT",
+  "authors": {
+    "thanhhaitran": "tthufo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tthufo/FBWatch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0",
+    "watchos": "2.0"
+  },
+  "requires_arc": true,
+  "source_files": "FBWatch/Classes/**/*",
+  "resource_bundles": {
+    "FBPLUGIN": [
+      "FBWatch/Assets/*"
+    ]
+  },
+  "resources": "FBWatch/Assets/*.*",
+  "frameworks": "CoreData",
+  "public_header_files": "FBWatch/Classes/*.h",
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ],
+    "Toast": [
+      "~> 2.4"
+    ],
+    "ASIHTTPRequest": [
+      "~> 1.8"
+    ],
+    "JSONKit-NoWarning": [
+      "~> 1.2"
+    ]
+  }
+}
