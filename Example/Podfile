@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FBWatch_Example' do
+  pod 'FBWatch', :path => '../'
+
+  target 'FBWatch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
